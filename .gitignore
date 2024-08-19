@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+.venv
+.env
+Training Multimodal model and related works/
+test_image_1.png
+test_image_2.jpg
+models/
