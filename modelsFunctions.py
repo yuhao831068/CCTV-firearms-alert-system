@@ -59,7 +59,7 @@ def get_description(sr_img):
         out = blip2_model.generate(**inputs)
 
     print("Decoding output...")
-    result = processor.decode(out[0], skip_special_tokens=True).strip()
+    result = processor.decode(out[0], skip_special_tokens=True, clean_up_tokenization_spaces=True).strip()
     print('Description is generated')
     return result
 
