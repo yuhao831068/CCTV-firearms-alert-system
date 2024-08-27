@@ -4,7 +4,7 @@
 Training Multimodal model and related works/
 test_image_1.png
 test_image_2.jpg
-models/
 .idea/
 __pycache__/
 .DS_Store
+Comparison directory/
